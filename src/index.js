@@ -5,7 +5,7 @@ import App from "./App";
 import CssBaseline from "@mui/material/CssBaseline";
 import { Provider } from "react-redux";
 
-import "./index.scss";
+import styles from "./index.scss";
 import { ThemeProvider } from "@mui/material";
 import { theme } from "./theme";
 import store from "./redux/store";

@@ -8,7 +8,7 @@ import { selectAuth } from "../../redux/slices/auth";
 import { useSelector } from "react-redux";
 import axios from "../../axios";
 
-import "easymde/dist/easymde.min.css";
+import easymde from "easymde";
 import styles from "./AddPost.module.scss";
 
 export const AddPost = () => {
